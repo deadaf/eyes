@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "eyes"
+version = "0.1.0"
+description = ""
+authors = ["deadaf <askpygod@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+disnake = "^2.3.2"
+python-decouple = "^3.6"
+tinydb = "^4.6.1"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^22.1.0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
